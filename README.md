@@ -1,51 +1,24 @@
 🛡️ Description du Projet SecurityCamera : Détecteur de Mouvement avec Alerte Sonore
 
+# Détecteur de Mouvement avec Alerte Sonore
 
+Ce projet Python utilise la bibliothèque OpenCV pour détecter les mouvements via une webcam, et joue un son d'alerte lorsqu'un mouvement significatif est détecté.
 
-# 🎥 Détection de Mouvement avec OpenCV & Python
+## Fonctionnalités
 
-Ce projet utilise **OpenCV** pour détecter des mouvements à partir d'une webcam en temps réel. Lorsqu’un mouvement est détecté, une alerte sonore est jouée via un fichier audio (`alert.wav`).
+- Capture vidéo en temps réel via la webcam.
+- Comparaison de deux images consécutives pour détecter un changement de scène.
+- Filtrage du bruit avec un flou gaussien et seuillage.
+- Détection de contours pour identifier les zones de mouvement.
+- Déclenchement d’un signal sonore (`alert.wav`) lorsqu’un mouvement important est détecté (zone > 8000 px²).
+- Affichage en direct avec surlignage des zones détectées.
 
----
+## Prérequis
 
-## 🚀 Fonctionnalités
-
-- 🔍 Détection de mouvement en temps réel à l'aide de la webcam
-- 🔔 Lecture d'une alerte sonore (`alert.wav`) en cas de détection
-- 🖼️ Affichage en direct de la vidéo avec cadre sur les zones détectées
-- 🐳 Compatible avec Docker (exécution containerisée possible)
-
----
-
-## 🧰 Prérequis
-
-Avant d'exécuter ce projet, tu dois avoir installé :
-
-- Python 3.8 ou supérieur
-- pip (gestionnaire de paquets Python)
-- Une webcam (interne ou USB)
-- Docker (optionnel, pour exécution containerisée)
-
----
-
-## 🛠️ Installation
-
-### 🔧 Étapes pour exécuter localement
-
-1. Clone ce dépôt :
-
-```bash
-git clone https://github.com/ton_nom_utilisateur/motion-detector.git
-cd motion-detector
-
-
-
-
-
-
-
-
-
+- Python 3.x
+- Modules :
+  - `opencv-python`
+  - `winsound` (disponible uniquement sur
 
 
 
