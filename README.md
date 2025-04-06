@@ -72,7 +72,7 @@ Une fois la bonne plage HSV trouvée, elle peut être enregistrée automatiqueme
 
 Nous avons choisi ce projet car :
 - Il est simple, visuel et concret.
-- Il introduit
+
 
 
 
