@@ -53,6 +53,28 @@ Exemple d’interaction : en déplaçant un objet jaune vers le haut ou vers le 
 - [winsound (Windows only)](https://docs.python.org/3/library/winsound.html)
 
 
+# 🎯 Détection de Couleur avec OpenCV - Calibration HSV en Temps Réel
+
+## 📌 Description du Projet HSV
+
+Ce projet a pour objectif de **détecter un objet spécifique (comme un stylo)** en utilisant **la segmentation par couleur HSV** dans une vidéo en direct. Grâce à une interface interactive avec des *trackbars*, l'utilisateur peut calibrer les valeurs HSV pour isoler précisément la couleur de l'objet à suivre.
+
+Le résultat est une visualisation en temps réel :
+- de l’image originale,
+- du masque binaire (détection de la couleur),
+- et du résultat filtré (objet coloré isolé).
+
+Une fois la bonne plage HSV trouvée, elle peut être enregistrée automatiquement pour un usage futur.
+
+---
+
+## ✅ Choix du Projet
+
+Nous avons choisi ce projet car :
+- Il est simple, visuel et concret.
+- Il introduit
+
+
 
 
 
