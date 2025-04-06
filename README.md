@@ -52,14 +52,7 @@ Exemple d’interaction : en déplaçant un objet jaune vers le haut ou vers le 
 - [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/)
 - [winsound (Windows only)](https://docs.python.org/3/library/winsound.html)
 
----
 
-## 🚀 Installation
-
-1. **Cloner le dépôt**
-   ```bash
-   git clone https://github.com/votre-utilisateur/controle-couleur-opencv.git
-   cd controle-couleur-opencv
 
 
 
