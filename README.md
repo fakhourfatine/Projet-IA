@@ -19,18 +19,6 @@ Ce projet est particulièrement utile pour comprendre les bases de la vision par
   - `opencv-python`
   - `winsound` (intégré à Windows)
 
-### Étapes
-
-1. **Téléchargez ou clonez le projet.**
-
-2. **Placez un fichier audio `alert.wav` dans le même dossier que le script.**
-
-3. **Installez les dépendances :**
-
-```bash
-pip install opencv-python
-
-
 
 
 
