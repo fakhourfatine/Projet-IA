@@ -1,24 +1,35 @@
 🛡️ Description du Projet SecurityCamera : Détecteur de Mouvement avec Alerte Sonore
 
-# Détecteur de Mouvement avec Alerte Sonore
+# Détecteur de Mouvement avec Alerte Sonore (OpenCV + Python)
 
-Ce projet Python utilise la bibliothèque OpenCV pour détecter les mouvements via une webcam, et joue un son d'alerte lorsqu'un mouvement significatif est détecté.
+## 🎯 Choix du Projet
 
-## Fonctionnalités
+Le choix de ce projet s’est porté sur la détection de mouvement en temps réel à l’aide d’une webcam. L’objectif était de mettre en œuvre une solution simple, visuelle et interactive utilisant la bibliothèque OpenCV. Pour renforcer l’aspect pratique, une alerte sonore est déclenchée lorsqu’un mouvement est détecté, simulant un système d’alarme de sécurité.
 
-- Capture vidéo en temps réel via la webcam.
-- Comparaison de deux images consécutives pour détecter un changement de scène.
-- Filtrage du bruit avec un flou gaussien et seuillage.
-- Détection de contours pour identifier les zones de mouvement.
-- Déclenchement d’un signal sonore (`alert.wav`) lorsqu’un mouvement important est détecté (zone > 8000 px²).
-- Affichage en direct avec surlignage des zones détectées.
+Ce projet est particulièrement utile pour comprendre les bases de la vision par ordinateur, la manipulation d’images en temps réel, ainsi que les contours et les différences d’images.
 
-## Prérequis
+---
+
+## ⚙️ Installation
+
+### Prérequis
 
 - Python 3.x
-- Modules :
+- Modules Python :
   - `opencv-python`
-  - `winsound` (disponible uniquement sur
+  - `winsound` (intégré à Windows)
+
+### Étapes
+
+1. **Téléchargez ou clonez le projet.**
+
+2. **Placez un fichier audio `alert.wav` dans le même dossier que le script.**
+
+3. **Installez les dépendances :**
+
+```bash
+pip install opencv-python
+
 
 
 
