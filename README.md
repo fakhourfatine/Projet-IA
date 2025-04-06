@@ -22,6 +22,7 @@ Ce projet Python utilise la bibliothèque OpenCV pour détecter les mouvements v
 
 
 
+
 # 🎮 Système de Contrôle par Détection de Couleur (OpenCV + PyAutoGUI)
 
 ## 📌 Description Projet ObjectDetection
